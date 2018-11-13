@@ -1,0 +1,482 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginVertical="10dp"
+          android:layout_marginHorizontal="10dp"
+          android:text="To protect against automated spam, you'll need to complete the following Captchas to complete the quiz."/>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingVertical="10dp"
+          android:background="#700e15">
+         <ImageView
+             android:src="@drawable/captcha1"
+             android:layout_centerHorizontal="true"
+             android:layout_width="wrap_content"
+             android:id="@+id/captcha1"
+             android:layout_height="wrap_content"/>
+         <LinearLayout
+             android:layout_width="300dp"
+             android:layout_below="@id/captcha1"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_centerHorizontal="true"
+             android:layout_marginVertical="5dp"
+             android:background="#ffff68">
+             <EditText
+                 android:id="@+id/edittext1"
+                 android:layout_height="wrap_content"
+                 android:layout_marginVertical="5dp"
+                 android:layout_width="290dp"
+                 android:layout_marginHorizontal="5dp"
+                 android:background="#ffffff"
+                 android:inputType="text"/>
+         </LinearLayout>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingVertical="10dp"
+          android:background="#700e15">
+         <ImageView
+             android:src="@drawable/captcha2"
+             android:layout_centerHorizontal="true"
+             android:layout_width="wrap_content"
+             android:id="@+id/captcha2"
+             android:layout_height="wrap_content"/>
+         <LinearLayout
+             android:layout_width="300dp"
+             android:layout_below="@id/captcha2"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_centerHorizontal="true"
+             android:layout_marginVertical="5dp"
+             android:background="#ffff68">
+            <RadioGroup
+                android:layout_marginVertical="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/radioGroup1"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+                <RadioButton
+                    android:id="@+id/radioG1B1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dante inferno"
+                    />
+                <RadioButton
+                    android:id="@+id/radioG1B2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quentin Tarantino"
+                    />
+                <RadioButton
+                    android:id="@+id/radioG1B3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quinte Taranterno"
+                    />
+                <RadioButton
+                    android:id="@+id/radioG1B4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="this captcha's too easy"
+                    />
+             </RadioGroup>
+         </LinearLayout>
+
+      </RelativeLayout>
+
+       <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingVertical="10dp"
+       android:background="#700e15">
+       <ImageView
+           android:src="@drawable/captcha3"
+           android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+           android:id="@+id/captcha3"
+           android:layout_height="wrap_content"/>
+       <LinearLayout
+           android:layout_width="300dp"
+           android:layout_below="@id/captcha3"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_centerHorizontal="true"
+           android:layout_marginVertical="5dp"
+           android:background="#ffff68">
+           <RadioGroup
+               android:layout_marginVertical="5dp"
+               android:layout_marginLeft="5dp"
+               android:id="@+id/radioGroup2"
+               android:layout_width="290dp"
+               android:layout_height="wrap_content"
+               android:background="#ffffff">
+               <RadioButton
+                   android:id="@+id/radioG2B1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="hope attack"
+                   />
+               <RadioButton
+                   android:id="@+id/radioG2B2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="haspe etek"
+                   />
+               <RadioButton
+                   android:id="@+id/radioG2B3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="hate speech"
+                   />
+               <RadioButton
+                   android:id="@+id/radioG2B4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="h8te spe3tch"
+                   />
+           </RadioGroup>
+       </LinearLayout>
+
+   </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="10dp"
+           android:background="#700e15">
+           <ImageView
+               android:src="@drawable/captcha4"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:id="@+id/captcha4"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="300dp"
+               android:layout_below="@id/captcha4"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_centerHorizontal="true"
+               android:layout_marginVertical="5dp"
+               android:background="#ffff68">
+               <EditText
+                   android:id="@+id/edittext2"
+                   android:layout_height="wrap_content"
+                   android:layout_marginVertical="5dp"
+                   android:layout_width="290dp"
+                   android:layout_marginHorizontal="5dp"
+                   android:background="#ffffff"
+                   android:inputType="text"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="10dp"
+           android:background="#700e15">
+           <ImageView
+               android:src="@drawable/captcha5"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:id="@+id/captcha5"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="300dp"
+               android:layout_below="@id/captcha5"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_centerHorizontal="true"
+               android:layout_marginVertical="5dp"
+               android:background="#ffff68">
+               <CheckBox
+                   android:id="@+id/checkbox1"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="Donut Boxes "/>
+               <CheckBox
+                   android:id="@+id/checkbox2"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="Toy "/>
+               <CheckBox
+                   android:id="@+id/checkbox3"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="Cheeseburger "/>
+               <CheckBox
+                   android:id="@+id/checkbox4"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="Truck "/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="10dp"
+           android:background="#700e15">
+           <ImageView
+               android:src="@drawable/captcha6"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:id="@+id/captcha6"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="300dp"
+               android:layout_below="@id/captcha6"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_centerHorizontal="true"
+               android:layout_marginVertical="5dp"
+               android:background="#ffff68">
+               <EditText
+                   android:id="@+id/edittext3"
+                   android:layout_height="wrap_content"
+                   android:layout_marginVertical="5dp"
+                   android:layout_width="290dp"
+                   android:layout_marginHorizontal="5dp"
+                   android:background="#ffffff"
+                   android:inputType="text"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="10dp"
+           android:background="#700e15">
+           <ImageView
+               android:src="@drawable/captcha7"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:id="@+id/captcha7"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="300dp"
+               android:layout_below="@id/captcha7"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_centerHorizontal="true"
+               android:layout_marginVertical="5dp"
+               android:background="#ffff68">
+               <RadioGroup
+                   android:layout_marginVertical="5dp"
+                   android:layout_marginLeft="5dp"
+                   android:id="@+id/radioGroup3"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:background="#ffffff">
+                   <RadioButton
+                       android:id="@+id/radioG3B1"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Communist Manifesto"
+                       />
+                   <RadioButton
+                       android:id="@+id/radioG3B2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="U.S. Constitution Article 2 Section 2"
+                       />
+                   <RadioButton
+                       android:id="@+id/radioG3B3"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Instagram Terms of Service"
+                       />
+                   <RadioButton
+                       android:id="@+id/radioG3B4"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="1812 Declaration of War"
+                       />
+               </RadioGroup>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="10dp"
+           android:background="#700e15">
+           <ImageView
+               android:src="@drawable/captcha8"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:id="@+id/captcha8"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="300dp"
+               android:layout_below="@id/captcha8"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_centerHorizontal="true"
+               android:layout_marginVertical="5dp"
+               android:background="#ffff68">
+               <EditText
+                   android:id="@+id/edittext5"
+                   android:layout_height="wrap_content"
+                   android:layout_marginVertical="5dp"
+                   android:layout_width="290dp"
+                   android:layout_marginHorizontal="5dp"
+                   android:background="#ffffff"
+                   android:inputType="text"/>
+               <EditText
+                   android:id="@+id/edittext6"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="5dp"
+                   android:layout_width="290dp"
+                   android:layout_marginHorizontal="5dp"
+                   android:background="#ffffff"
+                   android:inputType="text"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="10dp"
+           android:background="#700e15">
+           <ImageView
+               android:src="@drawable/captcha9"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:id="@+id/captcha9"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="300dp"
+               android:layout_below="@id/captcha9"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_centerHorizontal="true"
+               android:layout_marginVertical="5dp"
+               android:background="#ffff68">
+               <CheckBox
+                   android:id="@+id/checkbox5"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="YOU "/>
+               <CheckBox
+                   android:id="@+id/checkbox6"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="CAN"/>
+               <CheckBox
+                   android:id="@+id/checkbox7"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="NEVER"/>
+               <CheckBox
+                   android:id="@+id/checkbox8"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="DEFEAT"/>
+               <CheckBox
+                   android:id="@+id/checkbox9"
+                   android:background="#ffffff"
+                   android:layout_marginHorizontal="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_width="290dp"
+                   android:layout_height="wrap_content"
+                   android:text="CAPTCHA"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingVertical="10dp"
+           android:background="#700e15">
+           <ImageView
+               android:src="@drawable/captcha10"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:id="@+id/captcha10"
+               android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_width="300dp"
+               android:layout_below="@id/captcha10"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_centerHorizontal="true"
+               android:layout_marginVertical="5dp"
+               android:background="#ffff68">
+               <EditText
+                   android:id="@+id/edittext7"
+                   android:layout_height="wrap_content"
+                   android:layout_marginVertical="5dp"
+                   android:layout_width="290dp"
+                   android:layout_marginHorizontal="5dp"
+                   android:background="#ffffff"
+                   android:inputType="text"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+
+
+      <CheckBox
+          android:id="@+id/robotVerification"
+          android:text="I am not a robot."
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="checkAnswers" />
+
+       <TextView
+           android:id="@+id/displayView1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Your Captcha Score:"
+           android:background="#ffff68"/>
+       <TextView
+           android:id="@+id/displayView2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Your Missed Captchas:"
+           android:background="#ffff68"/>
+
+   </LinearLayout>
+
+</ScrollView>
